@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kayla Urania Suci Pranata - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #006a4e; /* Hijau botol */
+            color: #ffffff;
+        }
+
+        header {
+            background: #004d3a; /* Hijau botol lebih gelap */
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Frame foto di header */
+        .photo-frame {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #ffcc00;
+            overflow: hidden;
+            position: absolute;
+            top: -60px;
+        }
+
+        .photo-frame.left {
+            left: 20px;
+        }
+
+        .photo-frame.right {
+            right: 20px;
+        }
+
+        .photo-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        nav a {
+            margin: 0 1.5rem;
+            color: #ffcc00; /* Kuning kontras */
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffffff; /* Warna putih saat hover */
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #004d3a;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        section h2 {
+            text-align: center;
+            color: #ffcc00;
+            margin-bottom: 2rem;
+        }
+
+        .portfolio-item {
+            margin-bottom: 2.5rem;
+        }
+
+        .portfolio-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .portfolio-item p {
+            margin-bottom: 1rem;
+            color: #dcdcdc; /* Warna abu-abu terang */
+        }
+
+        .portfolio-item a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        .portfolio-item a:hover {
+            color: #ffffff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #004d3a;
+            color: white;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="photo-frame left">
+        <img src="your-photo1.jpg" alt="Foto 1">
+    </div>
+    <div class="photo-frame right">
+        <img src="your-photo2.jpg" alt="Foto 2">
+    </div>
+        <h1>Kayla Urania Suci Pranata</h1>
+        <p>Who's Kayla?</p>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Portfolio</h2>
+
+        <div class="portfolio-item">
+            <img src="img/I.jpeg" alt="Rooftop Skydeck Vegas Jakarta" width="200px" height="200px">
+            <h3>Pict 1</h3>
+            <p>Usia saya tahun ini 17 tahun. Saya Sekolah di SMK Negeri 5 Kabupaten tangerang, saya di Jurusan RPL</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="img/wayang.jpeg" alt="Pameran Seni in Sarinah Thamrin" width="200px" height="200px">
+            <h3>Pict  2</h3>
+            <p>Pameran Seni in Sarinah Thamrin</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="img/Kejuaraan Taekwondo.jpeg" alt="KASAD  2024" width="200px" height="200px">
+            <h3>Pict 3</h3>
+            <p>KASAD  6th Asian Taekwondi Open Championship 2024</p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kayla Urania Suci Pranata. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
